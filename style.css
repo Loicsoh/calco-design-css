@@ -1,0 +1,128 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 60px;
+    background-color: #000;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.container #result{
+    color: #fff;
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+}
+
+.container form{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "result result result result"   
+    "ac plus-moin pourcent sept" 
+    "huit neuf multiplication quatre" 
+    "cinq six soustraction un"
+    "deux trois addition zero" 
+    "point egal";
+}
+
+/*
+#result{
+    grid-area: result;
+}
+
+.ac{
+    grid-area: ac;
+}
+
+.plus-moin{
+    grid-area: plus-moin;
+}
+
+.pourcent{
+    grid-area: pourcent;
+}
+
+.sept{
+    grid-area: sept;
+}
+
+.huit{
+    grid-area: huit;
+}
+
+.neuf{
+    grid-area: neuf;
+}
+
+.multiplication{
+    grid-area: multiplication;
+}
+
+.quatre{
+    grid-area: quatre;
+}
+
+.cinq{
+    grid-area: cinq;
+}
+
+.six{
+    grid-area: six;
+}
+
+.soustraction{
+    grid-area: soustraction;
+}
+
+.un{
+    grid-area: un;
+}
+
+.deux{
+    grid-area: deux;
+}
+
+.trois{
+    grid-area: trois;
+}
+
+.addition{
+    grid-area: addition;
+}
+
+.zero{
+    grid-area: zero;
+}
+
+.point{
+    grid-area: point;
+}
+
+.egal{
+    grid-area: egal;
+}
+*/
+.btn{
+    width: 50px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #7e6e6e;
+    border: none;
+    height: 40px;
+    
+}
+
+#zero{
+    width: 100%;
+    border-radius: 90px;
+    text-align: left;
+
+}
+
+
